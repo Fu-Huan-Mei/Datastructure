@@ -12,7 +12,7 @@ import random
 # #有序区：i+1                                1 2 3 4    i + 1
 # #默认升序排列
 def bubble_sort(li):
-	#i表示趟数，i从0开始计算
+ # type: ignore # type: ignore # type: ignore	#i表示趟数，i从0开始计算
 	for i in range(len(li)-1):
 		#遍历无序区
 		for j in range(len(li)-i-1):
